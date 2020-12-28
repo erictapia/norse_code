@@ -1,0 +1,28 @@
+---
+IOS-XE.Sandbox:
+  hostname: ios-xe-mgmt.cisco.com
+  port: 8181
+  username: developer
+  password: C1sco12345
+  platform: ios-xe
+  groups:
+    - AlwaysOnSandbox 
+
+IOS-XR.Sandbox:
+  hostname: sbx-iosxr-mgmt.cisco.com
+  port: 8181
+  username: admin
+  password: C1sco12345
+  platform: ios-xr
+  groups:
+    - AlwaysOnSandbox 
+
+NX-OS.Sandbox:
+  hostname: sbx-nxos-mgmt.cisco.com
+  port: 8181
+  username: admin
+  password: C1sco12345
+  platform: nx-os
+  groups:
+    - AlwaysOnSandbox 
+...
