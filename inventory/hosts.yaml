@@ -4,7 +4,7 @@ IOS-XE.Sandbox:
   port: 8181
   username: developer
   password: C1sco12345
-  platform: ios-xe
+  platform: cisco_xe
   groups:
     - AlwaysOnSandbox 
 
@@ -13,7 +13,7 @@ IOS-XR.Sandbox:
   port: 8181
   username: admin
   password: C1sco12345
-  platform: ios-xr
+  platform: cisco_xr
   groups:
     - AlwaysOnSandbox 
 
@@ -22,7 +22,7 @@ NX-OS.Sandbox:
   port: 8181
   username: admin
   password: Admin_1234!
-  platform: nx-os
+  platform: cisco_nxos
   groups:
     - AlwaysOnSandbox 
 ...
